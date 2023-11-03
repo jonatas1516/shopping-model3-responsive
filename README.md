@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Shopping-model3-responsive
-=======
-# Shopping-model-responsive
->>>>>>> bae6dc0 (commit-first)
 
 Development of a website that displays a simple page, using HTML and CSS.
 
