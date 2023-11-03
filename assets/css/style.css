@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: rgb(93, 93, 125);
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  transition: 0.8s;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.side-left {
+  display: inline-block;
+  margin: 9.375rem 0 0 8.5rem;
+  width: 50%;
+}
+
+.title {
+  color: #5d5d7d;
+  font-size: 4.375rem;
+  height: 10rem;
+  line-height: 5rem;
+  margin: 0 0 1rem 0;
+  width: 23rem;
+}
+
+.paragraph {
+  font-size: 1.75rem;
+  height: 9rem;
+  line-height: 3rem;
+  margin: 0 0 1rem 0;
+  opacity: 60%;
+  width: 33.75rem;
+}
+
+.button-botton {
+  background-color: #9499ea;
+  border: none;
+  border-radius: 3rem;
+  box-shadow: 0 0.625rem 1.5rem 0 rgba(148, 153, 234, 5%);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 3.875rem;
+  text-align: center;
+  width: 16.8125rem;
+}
+
+.button-botton:hover {
+  opacity: 0.9;
+}
+
+.button-botton:active {
+  opacity: 0.5;
+}
+
+.side-right {
+  display: inline-block;
+  background-color: #5d5d7d29;
+  position: absolute;
+  width: 40vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  color: #5d5d7d;
+  font-size: 1.75rem;
+  margin: 1.5rem 3.3rem 1.2rem 3.3rem;
+  text-align: center;
+}
+
+.nav-links {
+  color: #5d5d7d;
+  cursor: pointer;
+  font-size: 1.75rem;
+  height: 2.563rem;
+  line-height: 2.563;
+  margin: 0 2.56rem 0 0;
+  text-decoration: none;
+  width: 23.5rem;
+}
+
+.nav-links:nth-child(2) {
+  color: rgba(93, 93, 125, 40%);
+}
+
+.nav-links:hover {
+  color: rgba(93, 93, 125, 40%);
+}
+
+.celular-img {
+  height: 28.5rem;
+  position: relative;
+  right: 7.2rem;
+}
+
+@media screen and (max-width: 414px) {
+  * {
+    transition: 0.8s;
+  }
+
+  .container {
+    height: 0;
+    width: 0;
+  }
+
+  .side-left {
+    display: block;
+    margin: 2.84rem 4rem;
+  }
+
+  .title {
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+    margin: 0 0 0.94rem 0.94rem;
+    text-align: center;
+    width: 16.75rem;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    margin: 0 0 0.94rem 0;
+    text-align: center;
+    width: 18.5rem;
+  }
+
+  .button-botton {
+    margin: 0 0 0 0.5rem;
+    text-align: center;
+  }
+
+  .side-right {
+    height: 45.5vh;
+    width: 100vw;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .celular-img {
+    height: 20rem;
+    position: relative;
+    right: 0;
+    margin: 2.88rem 1rem 2.88rem 2.88rem;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  * {
+    transition: 0.8s;
+  }
+
+  .side-right {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  * {
+    transition: 0.8s;
+  }
+
+  .side-left {
+    margin: 2.84rem 3rem;
+  }
+
+  .side-right {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  * {
+    transition: 0.8s;
+  }
+
+  .side-left {
+    margin: 2.84rem 2.84rem;
+  }
+
+  .side-right {
+    height: 60vh;
+  }
+
+  .celular-img {
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  * {
+    transition: 0.8s;
+  }
+
+  .side-left {
+    margin: 2.84rem 1rem;
+  }
+
+  .side-right {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  * {
+    transition: 0.8s;
+  }
+
+  .side-left {
+    margin: 2.84rem 0;
+  }
+
+  .title {
+    margin: 0 0 0.4rem 0.4rem;
+    width: 14rem;
+  }
+
+  .paragraph {
+    width: 14rem;
+  }
+
+  .button-botton {
+    margin: 0;
+    width: 14.7rem;
+  }
+
+  .side-right {
+    height: 120vh;
+  }
+
+  .celular-img {
+    margin: 2.88rem 0 2.88rem 0;
+  }
+}
