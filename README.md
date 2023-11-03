@@ -1,4 +1,4 @@
-# Shopping-model-responsive
+# Shopping-model3-responsive
 
 Development of a website that displays a simple page, using HTML and CSS.
 
