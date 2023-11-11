@@ -8,4 +8,6 @@ Development of a website that displays a simple page.
 <!-- <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript" />/>-->
 <!-- <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="c" />-->
 
-In CSS, style the appearance of HTML elements in a responsive layout;
+<img src="./assets/image/shopping.png" alt="shopping" />
+<br>
+<img src="./assets/image/shopping-responsive.png" alt="shopping-responsive" />
