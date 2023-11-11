@@ -8,6 +8,6 @@ Development of a website that displays a simple page.
 <!-- <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascript" />/>-->
 <!-- <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="c" />-->
 
-<img src="./assets/image/shopping.png" alt="shopping" />
+<img src="./assets/image/shopping.png" alt="shopping" width="720px"/>
 <br>
-<img src="./assets/image/shopping-responsive.png" alt="shopping-responsive" />
+<img src="./assets/image/shopping-responsive.png" alt="shopping-responsive" width="250px" />
