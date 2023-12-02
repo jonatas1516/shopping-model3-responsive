@@ -100,6 +100,14 @@
   right: 7.2rem;
 }
 
+.footer {
+  margin-right: 2rem;
+  margin-top: 8rem;
+  position: absolute;
+  top: 37rem;
+  margin-left: 1rem;
+}
+
 @media screen and (max-width: 414px) {
   * {
     transition: 0.8s;
@@ -150,6 +158,11 @@
     position: relative;
     right: 0;
     margin: 2.88rem 1rem 2.88rem 2.88rem;
+  }
+
+  .footer {
+    top: 45rem;
+    font-size: 1rem;
   }
 }
 
