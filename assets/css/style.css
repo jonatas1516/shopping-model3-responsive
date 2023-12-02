@@ -101,14 +101,42 @@
 }
 
 .footer {
+  margin-left: 1rem;
   margin-right: 2rem;
   margin-top: 8rem;
   position: absolute;
   top: 37rem;
-  margin-left: 1rem;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1251px) {
+  .side-left {
+    display: block;
+    margin: 2.84rem 4rem;
+  }
+
+  .side-right {
+    height: 100%;
+    width: 100vw;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .celular-img {
+    height: 28.5rem;
+    left: 20%;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  .footer {
+    top: 62rem;
+  }
+}
+
+/*414 - 1251*/
+@media screen and (max-width: 500px) {
   * {
     transition: 0.8s;
   }
@@ -161,7 +189,7 @@
   }
 
   .footer {
-    top: 45rem;
+    top: 47rem;
     font-size: 1rem;
   }
 }
